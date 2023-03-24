@@ -1,0 +1,38 @@
+body {
+  font-family: 'Lexend', sans-serif;
+  letter-spacing: 0.01em;
+  margin: 24px;
+
+}
+
+
+.header {
+  background-color: #fff;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.logo {
+  height: 24px;
+  /* margin-left: 24px; */
+  margin-right: 16px;
+}
+
+.nav-link {
+  color: #4a4a4a;
+  font-weight: 600;
+  margin-right: 16px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-color: #f8f8f8;
+  }
+  
+  .nav-link {
+    color: #4a4a4a;
+  }
+
+}

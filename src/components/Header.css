@@ -1,0 +1,40 @@
+.header {
+    background-color: #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    height: 24px;
+    margin-right: 16px;
+  }
+  
+  .nav-link {
+    color: #4a4a4a;
+    font-weight: 600;
+    margin-right: 16px;
+    text-transform: uppercase;
+  }
+  
+  .signup {
+    background-color: #13a35a;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      background-color: #f8f8f8;
+    }
+    
+    .nav-link {
+      color: #4a4a4a;
+    }
+    
+    .signup {
+      background-color: #13a35a;
+      color: #fff;
+    }
+  }
+  
