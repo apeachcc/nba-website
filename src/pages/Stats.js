@@ -26,7 +26,7 @@ function Stats() {
               <h1 class="display-5 fw-bolder">NBA SEASON STATS</h1>
             </Col>
             <Col xs="12" md="4" className="d-flex align-items-center justify-content-center">
-              <img width='200px' src="https://raw.githubusercontent.com/apeachcc/nba-website/2397c7da8530cd130b59fb0673bb01694d23ec00/src/components/bear.svg" alt="placeholder" className="img-fluid" />
+              <img width='200px' src="https://raw.githubusercontent.com/apeachcc/nba-website/8a2ee414e831f427f72f9e1f6ff5ae251a62ad96/src/components/dragon.svg" alt="placeholder" className="img-fluid" />
             </Col>
           </Row>
         </Container>

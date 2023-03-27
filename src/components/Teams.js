@@ -31,7 +31,7 @@ const Teams = () => {
 
           return (
             <div className="col-md-4 mb-3" key={team.id}>
-              <Card>
+              <Card className="border-0">
                 <CardImg 
                   top 
                   width="100%"

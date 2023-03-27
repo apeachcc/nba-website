@@ -1,6 +1,5 @@
 import React from 'react';
 // import { Container, Row, Col, Jumbotron } from 'react-bootstrap';
-import { Jumbotron, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JS
 import Gallery from "../components/Gallery";
