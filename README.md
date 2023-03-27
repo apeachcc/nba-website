@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# NBA-website
+This is a website built with React and Bootstrap that displays NBA team information and rosters. It uses the official NBA API to fetch team and player data.
+## Features:
+* Displays basic information for all NBA teams
+* Shows current season game stats
+* Shows upcoming schedule
+* Includes a contact form powered by Formspree
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation:
+To run this project locally, you'll need to have Node.js and npm installed on your machine.
 
-## Available Scripts
+1. Clone this repository to your local machine
+2. Navigate to the project directory and run npm install
+3. Start the development server with npm start
 
-In the project directory, you can run:
+## API:
+This project uses the official NBA API to fetch team and game data. It is also integrated with Formspree to handle the contact form submissions.
 
-### `npm start`
+## File Structure
+The project is structured as follows:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    ├── public/
+    │   ├── index.html
+    ├── src/
+    │   ├── components/
+    │   │   ├── Header.js
+    │   │   ├── Teams.js
+    │   │   └── Gallery.js
+    │   ├── pages/
+    │   │   ├── Contact.js
+    │   │   ├── Home.js
+    │   │   └── Stats.js
+    │   │   └── Sehedule.js
+    │   ├── App.js
+    │   ├── index.js
+    │   └── index.css
+    └── package.json
 
-### `npm test`
+* public/: Contains the index.html file and project images.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* src/: Contains the source code for the React components and pages.
 
-### `npm run build`
+* src/components/: Contains the reusable components used in the pages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* src/pages/: Contains the main pages of the website.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* src/App.js: Contains the routing and overall app structure.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* src/index.js: Contains the code to render the app to the DOM.
+* package.json: Contains the dependencies and scripts for the project.
 
-### `npm run eject`
+## Dependencies
+This project uses the following dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    "@formspree/react": "^2.4.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "reactstrap": "^9.1.6",
+    "web-vitals": "^2.1.4"
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshot:
+![A user clicks on vote button to vote.](./src/Screenshot.png)
+## Deployed URL:
+https://apeachcc.github.io/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License:
+This project is licensed under the MIT License. See LICENSE for more information.
