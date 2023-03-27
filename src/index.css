@@ -1,11 +1,11 @@
 body {
   font-family: 'Lexend', sans-serif;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.05em;
   margin: 24px;
 
 }
 
-
+/* Header style */
 .header {
   background-color: #fff;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
@@ -14,9 +14,9 @@ body {
 }
 
 .logo {
-  height: 24px;
+  height: 30px;
   /* margin-left: 24px; */
-  margin-right: 16px;
+  margin-right: 14px;
 }
 
 .nav-link {
@@ -28,11 +28,164 @@ body {
 
 @media (max-width: 768px) {
   .header {
-    background-color: #f8f8f8;
+    background-color: #ffffff;
   }
   
   .nav-link {
     color: #4a4a4a;
   }
 
+}
+
+/* Homepage */
+.jumbotron {
+  background: url('/src/bg.svg') no-repeat center center fixed;
+  background-size: cover;
+  height: 350px; /* Set the height of the jumbotron */
+}
+
+/* Table */
+/* Style the table */
+.team-season-stats {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Style the table headers */
+.team-season-stats th {
+  background-color: #1c1c1c;
+  color: white;
+  text-align: left;
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* Style the table cells */
+.team-season-stats td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Style the table rows */
+.team-season-stats tr:nth-child(even){background-color: #f2f2f2;}
+
+/* Style the table on hover */
+.team-season-stats tr:hover {background-color: #FFC423;}
+
+/* Style the table on mobile view */
+@media only screen and (max-width: 600px) {
+  .team-season-stats {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .team-season-stats th {
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+  }
+  .team-season-stats td {
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+  }
+}
+
+
+.text-highlight{
+  color: #F3589C;
+}
+
+
+
+/* contact */
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #F3589C;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-size: 18px;
+  box-shadow: 0px 3px 0px #C8256A;
+  text-decoration-line: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 0px #C8256A;
+  color: white;
+}
+
+
+button[type="submit"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* button CSS */
+.button {
+  background-color: #F3589C;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-size: 18px;
+  box-shadow: 0px 3px 0px #C8256A;
+  text-decoration-line: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 0px #C8256A;
+  color: white;
+}
+
+
+@media (min-width: 768px) {
+  .button {
+      padding: 13px 50px 13px;
+  }
+}
+
+
+
+.secondary-button {
+  background-color: #7c7c7c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  box-shadow: 0px 3px 0px #686868;
+  text-decoration-line: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.secondary-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 0px #686868;
+  color: white;
+}
+
+.card-body {
+  margin-top: 5px;
+  margin-bottom: 20px;
 }

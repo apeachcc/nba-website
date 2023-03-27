@@ -8,7 +8,7 @@ const Header = () => {
       <Navbar.Brand href="/">
         <img
           src="
-          https://cdn.nba.com/teams/uploads/sites/1610612741/2021/10/bulls-svg.svg
+          https://images.emojiterra.com/twitter/v14.0/128px/1f3c0.png
           "
           className="d-inline-block align-top logo"
           alt="NBA Website Logo"
@@ -18,7 +18,7 @@ const Header = () => {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/" className="nav-link">Home</Nav.Link>
-          <Nav.Link href="/gamestats" className="nav-link">Game Stats</Nav.Link>
+          <Nav.Link href="/Stats" className="nav-link">Game Stats</Nav.Link>
           <Nav.Link href="/schedule" className="nav-link">Game Schedule</Nav.Link>
           <Nav.Link href="/contact" className="nav-link">Contact Us</Nav.Link>
         </Nav>
