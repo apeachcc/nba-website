@@ -67,6 +67,7 @@ This project uses the following dependencies:
     "reactstrap": "^9.1.6",
     "web-vitals": "^2.1.4"
 
+
 ## Screenshot:
 ![A user clicks on vote button to vote.](./src/Screenshot.png)
 ## Deployed URL:
@@ -74,3 +75,7 @@ http://velvety-starship-0f2cab.netlify.app
 
 ## License:
 This project is licensed under the MIT License. See LICENSE for more information.
+
+## Credits
+Photo and infomation were from official NBA website.
+
