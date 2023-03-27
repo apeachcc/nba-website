@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from 'reactstrap';
+import Footer from '../components/Footer';
 
 const Schedule = () => {
   const [games, setGames] = useState([]);
@@ -24,46 +25,50 @@ const Schedule = () => {
 
 
   return (
-      <div className="container">
-        <div className="py-4">
-      <Container>
-        <Row>
-          <Col xs="12" md="8" className="d-flex align-items-center justify-content-center">
-          <h1 class="display-5 fw-bolder">GAME SCHEDULE</h1>
-          </Col>
-          <Col xs="12" md="4" className="d-flex align-items-center justify-content-center">
-            <img width='200px' src="https://raw.githubusercontent.com/apeachcc/nba-website/2397c7da8530cd130b59fb0673bb01694d23ec00/src/components/bear.svg" alt="placeholder" className="img-fluid" />
-          </Col>
-        </Row>
-      </Container>
-    </div>
-        {/* <br></br>
+    <div className="container">
+      <div className="py-4">
+        <Container>
+          <Row>
+            <Col xs="12" md="8" className="d-flex align-items-center justify-content-center">
+              <h1 class="display-5 fw-bolder">GAME SCHEDULE</h1>
+            </Col>
+            <Col xs="12" md="4" className="d-flex align-items-center justify-content-center">
+              <img width='200px' src="https://raw.githubusercontent.com/apeachcc/nba-website/2397c7da8530cd130b59fb0673bb01694d23ec00/src/components/bear.svg" alt="placeholder" className="img-fluid" />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      {/* <br></br>
         <h1 class="display-5 fw-bolder">GAME SCHEDULE</h1>
         <br></br> */}
-        <div className="table-wrapper">
-          <table className="team-season-stats">
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Time</th>
-                <th>Visitor Team</th>
-                <th>Home Team</th>
+      <div className="table-wrapper">
+        <table className="team-season-stats">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Time</th>
+              <th>Visitor Team</th>
+              <th>Home Team</th>
+            </tr>
+          </thead>
+          <tbody>
+            {games.map((game) => (
+              <tr key={game.GameId}>
+                <td>{new Date(game.DateTime).toLocaleDateString()}</td>
+                <td>{new Date(game.DateTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</td>
+                <td>{game.AwayTeam}</td>
+                <td>{game.HomeTeam}</td>
               </tr>
-            </thead>
-            <tbody>
-              {games.map((game) => (
-                <tr key={game.GameId}>
-                  <td>{new Date(game.DateTime).toLocaleDateString()}</td>
-                  <td>{new Date(game.DateTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</td>
-                  <td>{game.AwayTeam}</td>
-                  <td>{game.HomeTeam}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+            ))}
+          </tbody>
+        </table>
       </div>
-      );
+      <div class="container p-5">
+      <Footer />
+      </div>
+    </div>
+    
+  );
 };
 
-      export default Schedule;
+export default Schedule;

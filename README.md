@@ -70,7 +70,7 @@ This project uses the following dependencies:
 ## Screenshot:
 ![A user clicks on vote button to vote.](./src/Screenshot.png)
 ## Deployed URL:
-https://apeachcc.github.io/
+http://velvety-starship-0f2cab.netlify.app
 
 ## License:
 This project is licensed under the MIT License. See LICENSE for more information.

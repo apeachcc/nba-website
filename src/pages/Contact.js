@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import Footer from '../components/Footer';
 
 function Contact() {
   const [state, handleSubmit] = useForm("xqkolvwn");
@@ -52,9 +53,12 @@ function Contact() {
       </div>
       <br></br>
       <div className="text-center">
-        <a href="https://github.com/apeachcc" target="_blank">
+        <a href="https://github.com/apeachcc" target="_blank" rel="noopener noreferrer">
           <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width={"50px"} alt="Github Contact" />
         </a>
+      </div>
+      <div class="container p-5">
+      <Footer />
       </div>
 
     </div>

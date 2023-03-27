@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JS
 import Gallery from "../components/Gallery";
 import Teams from "../components/Teams";
+import Footer from '../components/Footer';
 
 function Home() {
   return (
@@ -18,6 +19,9 @@ function Home() {
       </div>
       <div class="container p-5">
       <Teams />
+      </div>
+      <div class="container p-5">
+      <Footer />
       </div>
     </div>
   );

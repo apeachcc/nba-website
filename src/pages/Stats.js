@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import Footer from '../components/Footer';
 
 const apiKey = 'c6e235eed226481c84a5151618898a4d';
 const endpointUrl = 'https://api.sportsdata.io/v3/nba/scores/json/TeamSeasonStats/2023';
@@ -61,6 +62,9 @@ function Stats() {
             ))}
           </tbody>
         </table>
+      </div>
+      <div class="container p-5">
+      <Footer />
       </div>
     </div>
   );

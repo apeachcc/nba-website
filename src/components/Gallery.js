@@ -17,7 +17,7 @@ const Gallery = () => {
                         <p className="card-text">
                             Cheer with us at the United Center all season long with matchups against the NBA's best teams and All-Stars.
                         </p>
-                        <a href="https://www.nba.com/celtics/schedule?page=playoffs" target="_blank" className='secondary-button'>Learn More</a>
+                        <a href="https://www.nba.com/celtics/schedule?page=playoffs" target="_blank" rel="noopener noreferrer" className='secondary-button'>Learn More</a>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@ const Gallery = () => {
                         <p className="card-text">
                         Learn more about the uniform and shop the collection.
                         </p>
-                        <a href="https://www.nba.com/bulls/city-edition/2223" target="_blank" className='secondary-button'>Learn More</a>
+                        <a href="https://www.nba.com/bulls/city-edition/2223" target="_blank" rel="noopener noreferrer" className='secondary-button'>Learn More</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ const Gallery = () => {
                         <p className="card-text"> 
                         New this year, you can create your own stackable partial plan from eight unique five-game options. Each mini plan will feature two guaranteed opponents.
                         </p>
-                        <a href="https://www.nba.com/bucks/tickets/partial" target="_blank" className='secondary-button'>Learn More</a>
+                        <a href="https://www.nba.com/bucks/tickets/partial" target="_blank" rel="noopener noreferrer" className='secondary-button'>Learn More</a>
                     </div>
                 </div>
             </div>
