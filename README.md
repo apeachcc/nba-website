@@ -70,6 +70,7 @@ This project uses the following dependencies:
 
 ## Screenshot:
 ![A user clicks on vote button to vote.](./src/Screenshot.png)
+
 ## Deployed URL:
 http://velvety-starship-0f2cab.netlify.app
 
@@ -77,7 +78,7 @@ http://velvety-starship-0f2cab.netlify.app
 https://docs.google.com/presentation/d/e/2PACX-1vQ9vbYVZrDAudy4qPwc-M5z7-2OZxkcov4Knv5pR0dYxxWp0__e5FUzggoezBoC66-LDxuyMHCEa_WA/pub?start=false&loop=false&delayms=3000
 
 ## License:
-This project is licensed under the MIT License. See LICENSE for more information.
+This project is licensed under the MIT License. 
 
 ## Credits
 Photo and infomation were from official NBA website.
