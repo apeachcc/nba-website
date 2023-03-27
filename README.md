@@ -14,7 +14,7 @@ To run this project locally, you'll need to have Node.js and npm installed on yo
 3. Start the development server with npm start
 
 ## API:
-This project uses the official NBA API to fetch team and game data. It is also integrated with Formspree to handle the contact form submissions.
+This project uses the sportsdata.io and balldontlie.io NBA API to fetch team and game data. It is also integrated with Formspree to handle the contact form submissions.
 
 ## File Structure
 The project is structured as follows:
