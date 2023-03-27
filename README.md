@@ -1,5 +1,5 @@
 # NBA-website
-This is a website built with React and Bootstrap that displays NBA team information and rosters. It uses the official NBA API to fetch team and player data.
+This is a website built with React and Bootstrap that displays NBA team information and stats. It uses the official NBA API to fetch team and player data.
 ## Features:
 * Displays basic information for all NBA teams
 * Shows current season game stats
@@ -72,6 +72,9 @@ This project uses the following dependencies:
 ![A user clicks on vote button to vote.](./src/Screenshot.png)
 ## Deployed URL:
 http://velvety-starship-0f2cab.netlify.app
+
+## Slides:
+https://docs.google.com/presentation/d/e/2PACX-1vQ9vbYVZrDAudy4qPwc-M5z7-2OZxkcov4Knv5pR0dYxxWp0__e5FUzggoezBoC66-LDxuyMHCEa_WA/pub?start=false&loop=false&delayms=3000
 
 ## License:
 This project is licensed under the MIT License. See LICENSE for more information.
