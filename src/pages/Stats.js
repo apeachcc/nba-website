@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Container, Row, Col } from 'reactstrap';
 
 const apiKey = 'c6e235eed226481c84a5151618898a4d';
 const endpointUrl = 'https://api.sportsdata.io/v3/nba/scores/json/TeamSeasonStats/2023';
@@ -18,9 +19,21 @@ function Stats() {
 
   return (
     <div className="container">
-      <br></br>
+      <div className="py-4">
+        <Container>
+          <Row>
+            <Col xs="12" md="8" className="d-flex align-items-center justify-content-center">
+              <h1 class="display-5 fw-bolder">NBA SEASON STATS</h1>
+            </Col>
+            <Col xs="12" md="4" className="d-flex align-items-center justify-content-center">
+              <img width='200px' src="https://raw.githubusercontent.com/apeachcc/nba-website/2397c7da8530cd130b59fb0673bb01694d23ec00/src/components/bear.svg" alt="placeholder" className="img-fluid" />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      {/* <br></br>
       <h1 class="display-5 fw-bolder">NBA SEASON STATS</h1>
-      <br></br>
+      <br></br> */}
       <div className="table-wrapper">
         <table className="team-season-stats">
           <thead>

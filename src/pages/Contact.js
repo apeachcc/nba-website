@@ -13,7 +13,6 @@ function Contact() {
         <div className="col-md-8 mx-auto">
         <h1 class="display-5 fw-bolder">CONTACT US</h1>
           <br></br>
-          <img src="../src/components/bear.svg"></img>
           <form onSubmit={handleSubmit}>
 
             <label htmlFor="email">
