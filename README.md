@@ -1,5 +1,5 @@
 # NBA-website
-This is a website built with React and Bootstrap that displays NBA team information and stats. It uses the NBA API to fetch team and player data.
+This is a website built with React and Bootstrap that displays NBA team information and stats. It uses the NBA API to fetch team and game data.
 ## Features:
 * Displays basic information for all NBA teams
 * Shows current season game stats
