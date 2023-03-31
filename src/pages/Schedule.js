@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from 'reactstrap';
 import Footer from '../components/Footer';
+import DateTime from '../components/DateTime';
 
 const Schedule = () => {
   const [games, setGames] = useState([]);
@@ -42,6 +43,7 @@ const Schedule = () => {
         <h1 class="display-5 fw-bolder">GAME SCHEDULE</h1>
         <br></br> */}
       <div className="table-wrapper">
+      <DateTime />
         <table className="team-season-stats">
           <thead>
             <tr>
